@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpAi\Gemini\Providers;
+namespace PhpGemini\GenerativeAI\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use PhpAi\Gemini\GeminiClient;
+use PhpGemini\GenerativeAI\GeminiClient;
 
 class GeminiServiceProvider extends ServiceProvider
 {

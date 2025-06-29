@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpAi\Gemini\Services;
+namespace PhpGemini\GenerativeAI\Services;
 
 use Google\Auth\OAuth2;
 

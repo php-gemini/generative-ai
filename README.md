@@ -1,6 +1,6 @@
 # 🧠 Gemini PHP SDK for Google Generative AI
 
-[![Packagist](https://img.shields.io/packagist/v/php-ai/gemini-generative-ai)](https://packagist.org/packages/php-ai/gemini-generative-ai)
+[![Packagist](https://img.shields.io/packagist/v/php-gemini/generative-ai)](https://packagist.org/packages/php-gemini/generative-ai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![PHP Version](https://img.shields.io/badge/PHP-^8.0-blue.svg)](https://php.net)
 
@@ -25,7 +25,7 @@ A Laravel-friendly, lightweight PHP SDK to interact with [Google Gemini Generati
 Install via Composer:
 
 ```bash
-composer require php-ai/gemini-generative-ai
+composer require php-gemini/generative-ai
 ```
 
 ### ⚙️ Configuration
@@ -33,7 +33,7 @@ composer require php-ai/gemini-generative-ai
 For Laravel users, publish the configuration file:
 
 ```bash
-php artisan vendor:publish --provider="PhpAi\Gemini\Providers\GeminiServiceProvider"
+php artisan vendor:publish --provider="PhpGemini\GenerativeAI\Providers\GeminiServiceProvider"
 ```
 
 Then update your `.env` file:
@@ -59,7 +59,7 @@ echo Gemini::generate("What's the future of AI?");
 ### ✅ In Plain PHP
 
 ```php
-use PhpAi\Gemini\GeminiClient;
+use PhpGemini\GenerativeAI\GeminiClient;
 
 require 'vendor/autoload.php';
 
@@ -99,8 +99,8 @@ Full documentation is available inside: `docs/index.md`
 Pull requests, issues, and feature suggestions are welcome!
 
 ```bash
-git clone [https://github.com/php-ai/gemini-generative-ai.git](https://github.com/php-ai/gemini-generative-ai.git)
-cd gemini-generative-ai
+git clone [https://github.com/php-gemini/generative-ai.git](https://github.com/php-gemini/generative-ai.git)
+cd generative-ai
 composer install
 ```
 
@@ -114,7 +114,7 @@ This project is open-sourced under the MIT license.
 
 ## 🔗 Useful Links
 
-- **Packagist:** [php-ai/gemini-generative-ai](https://packagist.org/packages/php-ai/gemini-generative-ai)
+- **Packagist:** [php-ai/gemini-generative-ai](https://packagist.org/packages/php-gemini/generative-ai)
 - **Gemini API Docs:** [https://ai.google.dev](https://ai.google.dev)
 - **Documentation:** `docs/index.md`
 

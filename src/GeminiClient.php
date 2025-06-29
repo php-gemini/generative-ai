@@ -1,10 +1,11 @@
 <?php
 
-namespace PhpAi\Gemini;
+namespace PhpGemini\GenerativeAI;
 
 use Exception;
 use GuzzleHttp\Client;
-use PhpAi\Gemini\Services\OAuth2Service;
+use PhpGemini\GenerativeAI\Services\OAuth2Service;
+
 
 
 class GeminiClient

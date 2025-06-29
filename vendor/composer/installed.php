@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
-        'name' => 'php-ai/gemini-generative-ai',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'name' => 'php-gemini/generative-ai',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '33d2d21f4824fb4578326b898a37d730db507f8c',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -145,10 +145,10 @@
             'aliases' => array(),
             'dev_requirement' => true,
         ),
-        'php-ai/gemini-generative-ai' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+        'php-gemini/generative-ai' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '33d2d21f4824fb4578326b898a37d730db507f8c',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

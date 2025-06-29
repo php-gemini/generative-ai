@@ -1,12 +1,12 @@
 {
-    "name": "php-ai/gemini-generative-ai",
+    "name": "php-gemini/generative-ai",
     "description": "Laravel-friendly PHP Package for Google Gemini Generative AI (including image & text)",
     "keywords": ["gemini", "generative", "ai", "php", "sdk", "laravel", "google", "vision"],
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "PhpAi\\Gemini\\": "src/"
+            "PhpGemini\\GenerativeAI\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -28,10 +28,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "PhpAi\\Gemini\\Providers\\GeminiServiceProvider"
+                "PhpGemini\\GenerativeAI\\Providers\\GeminiServiceProvider"
             ],
             "aliases": {
-                "Gemini": "PhpAi\\Gemini\\Facades\\Gemini"
+                "Gemini": "PhpGemini\\GenerativeAI\\Facades\\Gemini"
             }
         }
     },

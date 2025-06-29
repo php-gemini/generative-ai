@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitfa8ba67443770684f0fba8931ba5e6b5
+class ComposerStaticInitca60d51943fd9a0741ffd5b0ae9b44ce
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -20,7 +20,7 @@ class ComposerStaticInitfa8ba67443770684f0fba8931ba5e6b5
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         'f625ee536139dfb962a398b200bdb2bd' => __DIR__ . '/..' . '/illuminate/support/functions.php',
         '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
-        '8d81cff64477a99b4e2d87a01f2bf7ec' => __DIR__ . '/../..' . '/src/helpers.php',
+        '6a5e1b197b8ef2a0320f5f3793598de6' => __DIR__ . '/../..' . '/src/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -48,7 +48,7 @@ class ComposerStaticInitfa8ba67443770684f0fba8931ba5e6b5
             'Psr\\Clock\\' => 10,
             'Psr\\Cache\\' => 10,
             'PhpOption\\' => 10,
-            'PhpAi\\Gemini\\' => 13,
+            'PhpGemini\\GenerativeAI\\' => 23,
         ),
         'I' => 
         array (
@@ -146,7 +146,7 @@ class ComposerStaticInitfa8ba67443770684f0fba8931ba5e6b5
         array (
             0 => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption',
         ),
-        'PhpAi\\Gemini\\' => 
+        'PhpGemini\\GenerativeAI\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -230,9 +230,9 @@ class ComposerStaticInitfa8ba67443770684f0fba8931ba5e6b5
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitfa8ba67443770684f0fba8931ba5e6b5::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitfa8ba67443770684f0fba8931ba5e6b5::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitfa8ba67443770684f0fba8931ba5e6b5::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitca60d51943fd9a0741ffd5b0ae9b44ce::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitca60d51943fd9a0741ffd5b0ae9b44ce::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitca60d51943fd9a0741ffd5b0ae9b44ce::$classMap;
 
         }, null, ClassLoader::class);
     }

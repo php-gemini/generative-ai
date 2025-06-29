@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpAi\Gemini\Facades;
+namespace PhpGemini\GenerativeAI\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

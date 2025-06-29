@@ -21,7 +21,7 @@ This SDK supports:
 You can install the Package via Composer:
 
 ```bash
-composer require php-ai/gemini-generative-ai
+composer require php-gemini/generative-ai
 ```
 
 ### Configuration
@@ -29,7 +29,7 @@ composer require php-ai/gemini-generative-ai
 Publish the configuration file to your Laravel project:
 
 ```bash
-php artisan vendor:publish --provider="PhpAi\Gemini\Providers\GeminiServiceProvider" --tag="config"
+php artisan vendor:publish --provider="PhpGemini\GenerativeAI\Providers\GeminiServiceProvider" --tag="config" 
 ```
 
 This will create the config file at `config/gemini.php`.
@@ -76,7 +76,7 @@ You can also use the Package in plain PHP projects:
 
 require 'vendor/autoload.php';
 
-use PhpAi\Gemini\GeminiClient;
+use PhpGemini\GenerativeAI\GeminiClient;
 
 $client = new GeminiClient('your_api_key', 'gemini-1.5-flash');
 echo $client->generateContent('Say hello to the world.');
@@ -105,8 +105,8 @@ This SDK is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Links
 
-* [GitHub Repository](https://github.com/php-ai/gemini-generative-ai)
-* [Packagist Package](https://packagist.org/packages/php-ai/gemini-generative-ai)
+* [GitHub Repository](https://github.com/php-gemini/generative-ai)
+* [Packagist Package](https://packagist.org/packages/php-gemini/generative-ai)
 * [Official Gemini API Docs](https://ai.google.dev/docs)
 
 ## Contact
