@@ -1,0 +1,16 @@
+site_name: Gemini PHP SDK
+site_url: https://php-ai.github.io/gemini-generative-ai/
+repo_url: https://github.com/php-ai/gemini-generative-ai
+repo_name: php-ai/gemini-generative-ai
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
+
