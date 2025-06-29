@@ -1,5 +1,19 @@
+# Environment
+.env
+
+# Vendor folder
 /vendor
-/.env
+
+# Node modules
 /node_modules
+
+# IDE config
+.vscode/
+.idea/
+
+# OS files
 .DS_Store
-*.log
+Thumbs.db
+
+# Composer
+composer.lock
