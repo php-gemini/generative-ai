@@ -114,7 +114,7 @@ This project is open-sourced under the MIT license.
 
 ## 🔗 Useful Links
 
-- **Packagist:** [php-ai/gemini-generative-ai](https://packagist.org/packages/php-gemini/generative-ai)
+- **Packagist:** [php-gemini/generative-ai](https://packagist.org/packages/php-gemini/generative-ai)
 - **Gemini API Docs:** [https://ai.google.dev](https://ai.google.dev)
 - **Documentation:** `docs/index.md`
 
