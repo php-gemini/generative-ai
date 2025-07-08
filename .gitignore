@@ -1,19 +1,15 @@
-# Environment
 .env
 
-# Vendor folder
 /vendor
 
-# Node modules
 /node_modules
 
-# IDE config
 .vscode/
 .idea/
 
-# OS files
 .DS_Store
 Thumbs.db
 
-# Composer
 composer.lock
+
+.phpunit.cache/
